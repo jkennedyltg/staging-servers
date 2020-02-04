@@ -3,17 +3,17 @@
 
 | Server Name                    | Monitored   | Whats Monitored            | Server Purpose   |
 | ----------------------------   | ----------  | ---------------------------|------------------|
-| kzo-front-messaging            | Title       |                            | 
-| staging-translation-processor  |             |                            |
-| kzo-preview-app                |             |                            |
+| kzo-front-messaging            | no          |                            | 
+| staging-translation-processor  | no          |                            |
+| kzo-preview-app                | no          |                            |
 | kzo-preview-messaging
 | staging-prometheus
 | kzo-preview-elastic-search
 | front-elasticsearch
 | Packer Builder
 | kzo-front-transcoder
-| jenkins___staging_kzo_transcoder
-| frontend-jenkins
+| jenkins_staging_kzo_transcoder | no
+| frontend-jenkins               | no           |i                           |                  |
 | kzo-front-NAT
 | nexus
 | kzo-front-app
